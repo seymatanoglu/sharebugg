@@ -62,7 +62,7 @@ public class BuggListPage extends BasePage {
 							Intent intent = new Intent(v.getContext(), BrandProductsListPage.class);
 							intent.putExtra("brandIdSelected", brandIdSelected);
 							startActivityForResult(intent, 0);
-							
+							finish();
 						}
 					}
 				};
