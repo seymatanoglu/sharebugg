@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.penguen.sharebugg"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	
+    <application
+        android:name="com.penguen.sharebugg.application.MyApplication" 
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".ShareBuggActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" >
+            
+        </activity>
+         <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".SplashScreen1"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SplashScreen2"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SplashScreen3"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" >
+        </activity>
+         <activity
+            android:name=".SplashScreen4"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".BuggCodesPage"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" >
+        </activity>
+          <activity
+            android:name=".BuggListPage"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" >
+        </activity>
+          <activity
+            android:name=".BrandProductsListPage"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" >
+        </activity>
+          <activity
+            android:name=".NewBuggPage"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" >
+        </activity>
+          <activity
+            android:name=".SettingsPage"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

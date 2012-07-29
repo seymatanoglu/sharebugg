@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg">
+    <ImageButton 
+        android:id="@+id/background"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" 
+	    android:src="@drawable/bg5"
+	     android:scaleType="fitXY"
+		 android:background="@null"
+         android:layout_weight="1">
+	</ImageButton>
+	<ImageButton 
+        android:id="@+id/nextbutton4"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" 
+	    android:src="@drawable/btndahasonrabaglan"
+	    android:scaleType="fitXY"
+		 android:background="@null"
+         >
+	</ImageButton>
+	<ImageButton 
+        android:id="@+id/aggreement"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" 
+	    android:src="@drawable/btnkullanicisozlesmesi"
+	    android:scaleType="fitXY"
+		 android:background="@null"
+       >
+	</ImageButton>
+</LinearLayout>
